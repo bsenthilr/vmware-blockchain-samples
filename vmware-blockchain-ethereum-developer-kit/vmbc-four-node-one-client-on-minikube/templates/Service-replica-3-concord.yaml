@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: replica-3
+  labels:
+    app: replica-3-concord
+spec:
+  type: ClusterIP
+  ports:
+    - name: 'tcp-3501'
+      port: 3501
+      protocol: TCP
+      targetPort: 3501
+    - name: '5458'
+      port: 5458
+      protocol: TCP
+      targetPort: 5458
+    - name: 'tcp-3502'
+      port: 3502
+      protocol: TCP
+      targetPort: 3502
+    - name: 'tcp-3503'
+      port: 3503
+      protocol: TCP
+      targetPort: 3503
+    - name: 'tcp-3504'
+      port: 3504
+      protocol: TCP
+      targetPort: 3504
+    - name: 'tcp-3505'
+      port: 3505
+      protocol: TCP
+      targetPort: 3505
+  selector:
+    app: replica-3-concord
+
