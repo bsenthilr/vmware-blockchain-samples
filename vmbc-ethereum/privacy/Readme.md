@@ -44,3 +44,4 @@ Privacy application helm charts can be used for kubernetes deployment.
  | Helm charts  | Reference | 
  | ------------- | ------------- |
 |[Node-JS APP helm charts](./k8s/helm-charts/Chart.yaml)| [Readme](./k8s/Readme.md) |
+| Browser-JS APP helm charts | To be supported soon! |
