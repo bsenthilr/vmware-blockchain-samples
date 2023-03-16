@@ -22,6 +22,9 @@ The Node Administrator dApp and the Node User dApp are samples - VMware Blockcha
 | Node User DAPP  | NodeJS based user DAPP  | [User-Node-DAPP](./user-dapp/privacy-user-dapp.js) | [DockerfileUserDApp](./docker/DockerfileUserDApp) |
 | Privacy wallet service | Privacy wallet with support for private tokens | [Privacy wallet service](https://github.com/vmware/concord-bft/tree/master/utt/privacy-wallet-service) | [DockerfilePrivacyService](./docker/DockerfilePrivacyService) |
 
+The administartor DAPP is build with [Admin API](privacy-lib/privacy-admin-wallet.js) of privacy library and smart contract API.
+
+The user DAPP is build with the [user API](privacy-lib/privacy-wallet.js) of privacy library and smart contract API.
 
  #### Smart contracts
  SDK includes:
