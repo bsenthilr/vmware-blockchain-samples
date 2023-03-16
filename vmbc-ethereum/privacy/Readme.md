@@ -12,7 +12,7 @@ The SDK currently provides a sample NodeJS based DAPP implementation. Future ver
 ## Node-JS based DAPP
 ![NodeJS DAPP](./docs/sdk-components.png)
 ### NODEJS App overview
-The sample NodeJS dApps are build using [privacy wallet library](privacy-lib/privacy-wallet.js), which is a JavaScript convenience interface to the Privacy Wallet Service. The [Privacy wallet service](https://github.com/vmware/concord-bft/tree/master/utt/privacy-wallet-service) holds all sensitive assets, including privacy keys and tokens. It is essentially a GRPC server and the IDL is specified under [wallet-api.proto](https://github.com/vmware/concord-bft/blob/master/utt/privacy-wallet-service/proto/api/v1/wallet-api.proto).
+The sample NodeJS dApps are build using [privacy library](privacy-lib/), which is a JavaScript convenience interface to the Privacy Wallet Service. The [Privacy wallet service](https://github.com/vmware/concord-bft/tree/master/utt/privacy-wallet-service) holds all sensitive assets, including privacy keys and tokens. It is essentially a GRPC server and the IDL is specified under [wallet-api.proto](https://github.com/vmware/concord-bft/blob/master/utt/privacy-wallet-service/proto/api/v1/wallet-api.proto).
 
 The Node Administrator dApp and the Node User dApp are samples - VMware Blockchain customers will likely change them in order to create their own privacy applications. The privacy wallet service and the privacy library are not expected to be changed by customers.
 
